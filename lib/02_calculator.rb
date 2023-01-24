@@ -19,7 +19,6 @@ def power(a,b)
 end
 
 def factorial(a)
-    return (1..a).reduce(:*) || 0
+    return (1..a).reduce(:*) || 1
 end
 
-puts factorial (7)
